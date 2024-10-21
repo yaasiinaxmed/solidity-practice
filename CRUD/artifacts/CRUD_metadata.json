@@ -85,6 +85,24 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_description",
+						"type": "string"
+					}
+				],
+				"name": "updateItem",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -115,11 +133,11 @@
 	},
 	"sources": {
 		"CRUD/crud.sol": {
-			"keccak256": "0xda62053a508586dc4999ec02192093f821d729a4b3980b083a7af1b7fb812b03",
+			"keccak256": "0x06862b4ab55c17a66358e00553af323b0c2b7fb973dd8b25964b7680f3363636",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d767cc8760eb4f24657f7c1aa161e499d9716668cc571780aeb466fdd93930fe",
-				"dweb:/ipfs/QmUKKrzJJQGNiDepBzSFbs5EYccVWCQCEM9NMyrckpawz1"
+				"bzz-raw://43b8d87bcea328ad79b34a0c42bd3f870b84e7e78a6d0419c459c1679685f6cd",
+				"dweb:/ipfs/QmdsUmxieAFPRxBgbJMfs9tWcztMCxd6kkddnKwbssRd2P"
 			]
 		}
 	},

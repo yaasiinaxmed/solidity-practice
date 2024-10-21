@@ -22,4 +22,10 @@ contract CRUD {
         return items[_id];
     }
 
+    // Update an item 
+    function updateItem(uint _id, string memory _description) public {
+        require(_id <= itemCount && _id > 0, "Item does not exist");
+        items[_id].description = _description;
+    }
+
 }
