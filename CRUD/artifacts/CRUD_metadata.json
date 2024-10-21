@@ -33,6 +33,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "getItemCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "itemCount",
 				"outputs": [
 					{
@@ -146,11 +159,11 @@
 	},
 	"sources": {
 		"CRUD/crud.sol": {
-			"keccak256": "0xd52b3f1d14819c091713eb4927cfbd330c3069d7beb0231aaa85786b8ec3563b",
+			"keccak256": "0xa1d560feede94505589c21b0a4ba4adda34b4e00cb2eb1306608dd10513d6fa0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1506d7ae82262a0acfa6137964167da0b4611c0cc4c1414a23288a589d4734ed",
-				"dweb:/ipfs/QmZH8EpyQiecV2qejTJttvtCr3UWb23YhvzHEWHYn9WMAN"
+				"bzz-raw://691263535682962d8babdea6fa2932dcfd8d2664f7134d157813199af52f2f3f",
+				"dweb:/ipfs/QmPhNMR3xFXPESP6qAyVkac89ReFbWxnRK4yW6Deoft72t"
 			]
 		}
 	},

@@ -34,4 +34,9 @@ contract CRUD {
         delete items[_id];
     }
 
+    // Get total number of items
+    function getItemCount() public view returns (uint) {
+        return itemCount;
+    }
+
 }
