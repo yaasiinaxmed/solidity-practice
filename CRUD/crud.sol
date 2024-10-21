@@ -28,4 +28,10 @@ contract CRUD {
         items[_id].description = _description;
     }
 
+    // Delete an item
+    function deleteItem(uint _id) public {
+        require(_id <= itemCount && _id > 0, "Item does not exist");
+        delete items[_id];
+    }
+
 }

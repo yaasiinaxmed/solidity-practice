@@ -19,6 +19,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "deleteItem",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "itemCount",
 				"outputs": [
@@ -133,11 +146,11 @@
 	},
 	"sources": {
 		"CRUD/crud.sol": {
-			"keccak256": "0x06862b4ab55c17a66358e00553af323b0c2b7fb973dd8b25964b7680f3363636",
+			"keccak256": "0xd52b3f1d14819c091713eb4927cfbd330c3069d7beb0231aaa85786b8ec3563b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://43b8d87bcea328ad79b34a0c42bd3f870b84e7e78a6d0419c459c1679685f6cd",
-				"dweb:/ipfs/QmdsUmxieAFPRxBgbJMfs9tWcztMCxd6kkddnKwbssRd2P"
+				"bzz-raw://1506d7ae82262a0acfa6137964167da0b4611c0cc4c1414a23288a589d4734ed",
+				"dweb:/ipfs/QmZH8EpyQiecV2qejTJttvtCr3UWb23YhvzHEWHYn9WMAN"
 			]
 		}
 	},
