@@ -4,7 +4,89 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_description",
+						"type": "string"
+					}
+				],
+				"name": "createItem",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "itemCount",
+				"outputs": [
+					{
+						"internalType": "uint64",
+						"name": "",
+						"type": "uint64"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "items",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "readItem",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "id",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "description",
+								"type": "string"
+							}
+						],
+						"internalType": "struct CRUD.Item",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +115,11 @@
 	},
 	"sources": {
 		"CRUD/crud.sol": {
-			"keccak256": "0xdcfc127b7f3e335d16bcf60c117ee141e41b7447587780f21272a495ab2c3d75",
+			"keccak256": "0xda62053a508586dc4999ec02192093f821d729a4b3980b083a7af1b7fb812b03",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b3a3fd2f6955a76dede433de420ec0aac5b131d1637be65a766677c3cdba7714",
-				"dweb:/ipfs/QmV2SxKv5q6kJsPadmVFSVGhQb9NJwsRAU558AWMHMvu3r"
+				"bzz-raw://d767cc8760eb4f24657f7c1aa161e499d9716668cc571780aeb466fdd93930fe",
+				"dweb:/ipfs/QmUKKrzJJQGNiDepBzSFbs5EYccVWCQCEM9NMyrckpawz1"
 			]
 		}
 	},

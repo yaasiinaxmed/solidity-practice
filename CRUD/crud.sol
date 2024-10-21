@@ -2,24 +2,24 @@
 pragma solidity ^0.8.0;
 
 contract CRUD {
-    uint64 public itemCount = 0
+    uint64 public itemCount = 0;
 
     struct Item {
         uint id;
         string description;
     }
 
-    mapping(uint => Item) public items
+    mapping(uint => Item) public items;
 
     // Create a new item
     function createItem(string memory _description) public {
-        itemCount++
+        itemCount++;
         items[itemCount] = Item(itemCount, _description);
     }
 
     // Read an item
     function readItem(uint _id) public view returns (Item memory) {
-        return items[_id]
+        return items[_id];
     }
 
 }
