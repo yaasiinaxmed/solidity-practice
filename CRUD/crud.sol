@@ -16,5 +16,10 @@ contract CRUD {
         itemCount++
         items[itemCount] = Item(itemCount, _description);
     }
-    
+
+    // Read an item
+    function readItem(uint _id) public view returns (Item memory) {
+        return items[_id]
+    }
+
 }
